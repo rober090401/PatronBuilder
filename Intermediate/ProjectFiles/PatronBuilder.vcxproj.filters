@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PatronBuilder.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PatronBuilder.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PatronBuilderEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PatronBuilder">
+      <UniqueIdentifier>{B02F4CD0-4451-34D2-895F-47F9CB20FAC1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PatronBuilder\PatronBuilder.Build.cs">
+      <Filter>Source\PatronBuilder</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PatronBuilder\PatronBuilder.cpp">
+      <Filter>Source\PatronBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\PatronBuilder.h">
+      <Filter>Source\PatronBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\PatronBuilderCharacter.cpp">
+      <Filter>Source\PatronBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\PatronBuilderCharacter.h">
+      <Filter>Source\PatronBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\PatronBuilderGameMode.cpp">
+      <Filter>Source\PatronBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\PatronBuilderGameMode.h">
+      <Filter>Source\PatronBuilder</Filter>
+    </ClCompile>
+    <Filter Include="Source\PatronBuilder\Private">
+      <UniqueIdentifier>{3FC0423C-769D-3DBC-B949-6FB5BAE54FDF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PatronBuilder\Private\Bloque.cpp">
+      <Filter>Source\PatronBuilder\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Private\BloqueAcero.cpp">
+      <Filter>Source\PatronBuilder\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Private\BloqueLadrillo.cpp">
+      <Filter>Source\PatronBuilder\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Private\BloqueMadera.cpp">
+      <Filter>Source\PatronBuilder\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Private\BloquePiedra.cpp">
+      <Filter>Source\PatronBuilder\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Private\ILaberintoBuilder.cpp">
+      <Filter>Source\PatronBuilder\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PatronBuilder\Public">
+      <UniqueIdentifier>{0EC1AD5D-5301-3E9F-A395-FAFC99C27044}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PatronBuilder\Public\Bloque.h">
+      <Filter>Source\PatronBuilder\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Public\BloqueAcero.h">
+      <Filter>Source\PatronBuilder\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Public\BloqueLadrillo.h">
+      <Filter>Source\PatronBuilder\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Public\BloqueMadera.h">
+      <Filter>Source\PatronBuilder\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Public\BloquePiedra.h">
+      <Filter>Source\PatronBuilder\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PatronBuilder\Public\ILaberintoBuilder.h">
+      <Filter>Source\PatronBuilder\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

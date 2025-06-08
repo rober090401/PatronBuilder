@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\bomberman\\PatronBuilder\\Source\\PatronBuilder\\PatronBuilder.Build.cs",
+		"C:\\bomberman\\PatronBuilder\\Source\\PatronBuilder.Target.cs",
+		"C:\\bomberman\\PatronBuilder\\Source\\PatronBuilderEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
