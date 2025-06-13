@@ -14,4 +14,9 @@ class PATRONBUILDER_API ABloqueLadrillo : public ABloque
 {
 	GENERATED_BODY()
 	
+public: 
+	ABloqueLadrillo();
+	virtual int32 GetTipoID() const override { return 2; } // ID para Ladrillo
+protected:
+	virtual void BeginPlay() override;
 };

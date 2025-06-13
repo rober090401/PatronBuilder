@@ -24,8 +24,6 @@ public: \
 
 
 #define FID_bomberman_PatronBuilder_Source_PatronBuilder_Public_BloquePiedra_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABloquePiedra(); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABloquePiedra(ABloquePiedra&&); \

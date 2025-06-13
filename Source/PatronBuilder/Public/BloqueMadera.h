@@ -14,4 +14,10 @@ class PATRONBUILDER_API ABloqueMadera : public ABloque
 {
 	GENERATED_BODY()
 	
+public:
+	ABloqueMadera();
+	virtual int32 GetTipoID() const override { return 3; } // ID para BloqueMadera
+
+protected:
+	virtual void BeginPlay() override;
 };

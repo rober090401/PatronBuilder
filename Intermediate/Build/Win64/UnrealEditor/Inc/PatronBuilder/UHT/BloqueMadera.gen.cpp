@@ -74,7 +74,6 @@ template<> PATRONBUILDER_API UClass* StaticClass<ABloqueMadera>()
 {
 	return ABloqueMadera::StaticClass();
 }
-ABloqueMadera::ABloqueMadera() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABloqueMadera);
 ABloqueMadera::~ABloqueMadera() {}
 // End Class ABloqueMadera

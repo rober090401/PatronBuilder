@@ -14,4 +14,10 @@ class PATRONBUILDER_API ABloqueAcero : public ABloque
 {
 	GENERATED_BODY()
 	
+public:
+	ABloqueAcero();
+	virtual int32 GetTipoID() const override { return 1; } // Tipo ID para Bloque de Acero
+
+protected:
+	virtual void BeginPlay() override;
 };

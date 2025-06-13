@@ -74,7 +74,6 @@ template<> PATRONBUILDER_API UClass* StaticClass<ABloqueLadrillo>()
 {
 	return ABloqueLadrillo::StaticClass();
 }
-ABloqueLadrillo::ABloqueLadrillo() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABloqueLadrillo);
 ABloqueLadrillo::~ABloqueLadrillo() {}
 // End Class ABloqueLadrillo

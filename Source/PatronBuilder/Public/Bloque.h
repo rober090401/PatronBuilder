@@ -14,6 +14,7 @@ class PATRONBUILDER_API ABloque : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ABloque();
+	virtual int32 GetTipoID() const { return 0; }
 
 protected:
 	// Componente de malla estática

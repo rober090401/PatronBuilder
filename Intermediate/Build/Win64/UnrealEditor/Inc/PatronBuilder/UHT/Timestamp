@@ -1,8 +1,10 @@
 C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\Bloque.h
-C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\BloqueAcero.h
 C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\BloqueLadrillo.h
 C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\BloqueMadera.h
 C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\BloquePiedra.h
 C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\ILaberintoBuilder.h
+C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\Laberinto.h
+C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\LaberintoBuilderConcreto.h
+C:\bomberman\PatronBuilder\Source\PatronBuilder\Public\BloqueAcero.h
 C:\bomberman\PatronBuilder\Source\PatronBuilder\PatronBuilderCharacter.h
 C:\bomberman\PatronBuilder\Source\PatronBuilder\PatronBuilderGameMode.h

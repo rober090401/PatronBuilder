@@ -3,3 +3,19 @@
 
 #include "BloqueLadrillo.h"
 
+ABloqueLadrillo::ABloqueLadrillo()
+{
+    if (MallaBloque)
+    {
+        static ConstructorHelpers::FObjectFinder<UMaterial> MaterialBase(TEXT("/Script/Engine.Material'/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.M_Wood_Floor_Walnut_Worn'"));
+
+        if (MaterialBase.Succeeded())
+        {
+            MallaBloque->SetMaterial(0, MaterialBase.Object); // Asignar el material al slot 0
+        }
+    }
+}
+
+void ABloqueLadrillo::BeginPlay()
+{
+}

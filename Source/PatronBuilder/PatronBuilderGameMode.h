@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "LaberintoBuilderConcreto.h"
+#include "Laberinto.h"
 #include "PatronBuilderGameMode.generated.h"
 
 UCLASS(minimalapi)
@@ -13,6 +15,15 @@ class APatronBuilderGameMode : public AGameModeBase
 
 public:
 	APatronBuilderGameMode();
+
+protected:
+	virtual void BeginPlay() override;
+private:
+	UPROPERTY()
+	ALaberintoBuilderConcreto* LaberintoBuilder;
+	UPROPERTY()
+	ALaberinto* LaberintoConstruido;
+	void ConstruirLaberinto();
 };
 
 

@@ -74,7 +74,6 @@ template<> PATRONBUILDER_API UClass* StaticClass<ABloqueAcero>()
 {
 	return ABloqueAcero::StaticClass();
 }
-ABloqueAcero::ABloqueAcero() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABloqueAcero);
 ABloqueAcero::~ABloqueAcero() {}
 // End Class ABloqueAcero

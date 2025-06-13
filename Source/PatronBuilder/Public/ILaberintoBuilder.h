@@ -22,4 +22,7 @@ class PATRONBUILDER_API IILaberintoBuilder
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
+	virtual void IniciarLaberinto() = 0;
+	virtual void AgregarBloque(int32 X, int32 Y, TSubclassOf<class ABloque> TipoBloque) = 0;
+	virtual class ALaberinto* ObtenerLaberinto() = 0;
 };
